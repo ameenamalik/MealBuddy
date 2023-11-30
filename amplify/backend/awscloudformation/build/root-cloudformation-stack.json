@@ -151,6 +151,15 @@
           "Ref": "UnauthRoleName"
         }
       }
+    },
+    "apimealbuddy": {
+      "Type": "AWS::CloudFormation::Stack",
+      "Properties": {
+        "TemplateURL": "https://s3.amazonaws.com/amplify-mealbuddy-dev-124959-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+        "Parameters": {
+          "env": "dev"
+        }
+      }
     }
   }
 }

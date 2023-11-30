@@ -11,5 +11,28 @@
       "StackId": "arn:aws:cloudformation:us-east-1:867149938724:stack/amplify-mealbuddy-dev-124959/8d4fb560-8e16-11ee-bd9c-12ce0c9097b7",
       "AmplifyAppId": "d25von8hzmuk63"
     }
+  },
+  "api": {
+    "mealbuddy": {
+      "service": "AppSync",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "output": {
+        "authConfig": {
+          "defaultAuthentication": {
+            "authenticationType": "API_KEY",
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 7
+            }
+          },
+          "additionalAuthenticationProviders": []
+        }
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-mealbuddy-dev-124959-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+        "logicalId": "apimealbuddy"
+      },
+      "lastPushTimeStamp": "2023-11-30T19:51:25.674Z"
+    }
   }
 }

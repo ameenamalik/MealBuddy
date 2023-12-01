@@ -14,25 +14,31 @@
   },
   "api": {
     "mealbuddy": {
-      "service": "AppSync",
-      "providerPlugin": "awscloudformation",
       "dependsOn": [],
       "output": {
         "authConfig": {
+          "additionalAuthenticationProviders": [],
           "defaultAuthentication": {
             "authenticationType": "API_KEY",
             "apiKeyConfig": {
-              "apiKeyExpirationDays": 7
+              "apiKeyExpirationDays": 7,
+              "apiKeyExpirationDate": "2023-12-07T23:50:49.642Z",
+              "description": "mealbuddykey"
             }
-          },
-          "additionalAuthenticationProviders": []
-        }
+          }
+        },
+        "GraphQLAPIIdOutput": "baxzaj5lwrbivejv43mke2zdhy",
+        "GraphQLAPIEndpointOutput": "https://y2kcstqxyvgnzh6ur44ceveabi.appsync-api.us-east-1.amazonaws.com/graphql",
+        "GraphQLAPIKeyOutput": "da2-vmrxbadlnrahtlg66rocu3zls4"
       },
+      "providerPlugin": "awscloudformation",
+      "service": "AppSync",
+      "lastPushTimeStamp": "2023-12-01T01:31:00.986Z",
       "providerMetadata": {
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-mealbuddy-dev-124959-deployment/amplify-cfn-templates/api/cloudformation-template.json",
         "logicalId": "apimealbuddy"
       },
-      "lastPushTimeStamp": "2023-11-30T19:51:25.674Z"
+      "lastPushDirHash": "JCu/rtme8WzYqeUMy/pP05wR49o="
     }
   }
 }

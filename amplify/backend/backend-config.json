@@ -7,7 +7,9 @@
           "additionalAuthenticationProviders": [],
           "defaultAuthentication": {
             "apiKeyConfig": {
-              "apiKeyExpirationDays": 7
+              "apiKeyExpirationDate": "2023-12-07T23:50:49.642Z",
+              "apiKeyExpirationDays": 7,
+              "description": "mealbuddykey"
             },
             "authenticationType": "API_KEY"
           }

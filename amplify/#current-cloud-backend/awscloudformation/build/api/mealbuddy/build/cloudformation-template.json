@@ -111,7 +111,8 @@
             "ApiId"
           ]
         },
-        "Expires": 1701978667
+        "Description": "mealbuddykey",
+        "Expires": 1701998936
       }
     },
     "GraphQLAPINONEDS95A13CF0": {
@@ -312,6 +313,5 @@
         }
       }
     }
-  },
-  "Description": "{\"createdOn\":\"Mac\",\"createdBy\":\"Amplify\",\"createdWith\":\"12.8.2\",\"stackType\":\"api-AppSync\",\"metadata\":{}}"
+  }
 }
